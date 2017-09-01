@@ -1,0 +1,3 @@
+/Users/hitwsl/Documents/code/lstm_ner_yijia/stack_lstm_ner/src/src/stack-lstm-ner-master/CMakeFiles/disf_stack.dir
+/Users/hitwsl/Documents/code/lstm_ner_yijia/stack_lstm_ner/src/cnn/cnn/CMakeFiles/cnn_shared.dir
+/Users/hitwsl/Documents/code/lstm_ner_yijia/stack_lstm_ner/src/cnn/cnn/CMakeFiles/cnn.dir

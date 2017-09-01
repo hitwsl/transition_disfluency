@@ -1,0 +1,14 @@
+stack-lstm-disf-nogen:不加离散特征的disfluency代码
+stack-lstm-disf-gen:加离散特征的disfluency代码
+stack-lstm-disf-gen-dual:加离散特征的disfluency代码,输入既有char表示的词和embeding表示的词
+stack-lstm-new-action: 在stack-lstm-disf-gen-dual基础上，修改动作，只有shift和reduce两种动作
+stack-lstm-parser:stack-lstm的加beam的charctor-based的parser
+stack-lstm-rev:逆向构造数据
+stack-lstm-cfsm:逆向构造数据，在分类器层加入了了层次化的方法。
+stack-lstm-cfsm1:逆向构造数据，在分类器层加入了了层次化的方法。而且每一步在生成的时候,除了将生成的词加入到stack里面,还会同时加入到out里面,reduce的时候不再加入out
+stack-lstm-cfsm2:逆向构造数据，在分类器层加入了了层次化的方法。而且只保留shift和out两种动作
+stack-lstm-beam-search-batch:加入了mini-batch训练策略的方法
+stack-lstm-new-action-batch:加入了mini-batch训练策略的方法
+stack-lstm-new-action-bilstm:在stack-lstm-new-action的基础上,对buffer进行双向lstm表示.
+stack-lstm-new-action-bilstm-new:在stack-lstm-new-action-bilstm的基础上,对buffer进行双向lstm表示,并且用两头相减的方法来处理.
+stack-lstm-new-action-bilstm-feature-new:在stack-lstm-new-action-bilstm-new基础上添加段落特征

@@ -1,0 +1,15 @@
+step1:sedual sample,按动作的执行结果
+step2:you mean等删不删
+step3:stack片段的表示,需要相加和相减吗
+
+step4:总之各种想招
+
+step5:逆向
+
+step6:关于stack的状态特征问题,是不是可以参考一下2014的joint方法
+
+step7:关于stack和Buffer的特征,还可以参考semi-crf的段落特征,目前这块还没有进一步做实验.
+
+step8:关于scheduled sampling,目前的做法试试按照一定概率将前面的步骤加进去,这个不一定对,需要再看论文确认一下
+
+step9:character表示

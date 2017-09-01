@@ -1,0 +1,6 @@
+mkdir build
+cd build
+cmake .. -DEIGEN3_INCLUDE_DIR=eigen
+make -j 10
+cd ../bin
+
