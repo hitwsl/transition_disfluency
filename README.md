@@ -4,10 +4,7 @@ The code is extented from https://github.com/clab/stack-lstm-ner and https://git
 
 How to run it:
     step1:compile:cd compile and see command.txt
-
-    step2: data precessing: step1:cd data  
-                            step2:./run.sh
-                 
-run: cd run and see *.sh
+    step2:data precessing: cd data and ./run.sh              
+    step4:run: cd run and see *.sh
 
 
