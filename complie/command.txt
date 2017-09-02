@@ -1,3 +1,6 @@
+
+You need download the development version of the Eigen library (https://bitbucket.org/eigen/eigen) and CNN neural net toolkit (https://github.com/clab/cnn-v1) before compling.
+
 mkdir build
 cd build
 cmake .. -DEIGEN3_INCLUDE_DIR=eigen
